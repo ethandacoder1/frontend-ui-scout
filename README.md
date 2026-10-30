@@ -6,9 +6,6 @@
 
 UI Scout turns a curated directory of **61 UI, CSS, component, animation, UX inspiration and frontend builder resources** into an adaptive workflow. Instead of asking an AI agent to make everything "modern", it helps the agent **inspect your actual project, investigate specific options, choose the best fit, and ship coherent frontend improvements**.
 
-> [!IMPORTANT]
-> This repository is a **ready-to-publish template**, not a live hosted GitHub repository. Replace `YOUR_GITHUB_USERNAME` in the install examples after uploading it to GitHub.
-
 ## At a glance
 
 | | |
@@ -35,7 +32,7 @@ It does **not** automatically browse every website, grant itself web/repository 
 ### From GitHub, after publishing this repo
 
 ```bash
-npx skills add YOUR_GITHUB_USERNAME/frontend-ui-scout --skill frontend-ui-scout
+npx skills add ethandacoder1/frontend-ui-scout --skill frontend-ui-scout
 ```
 
 To install for all your projects, use `-g` and choose your target agents. The skills CLI can install into several compatible agents. See the [CLI documentation](https://www.skills.sh/docs/cli).
